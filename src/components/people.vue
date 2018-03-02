@@ -85,10 +85,10 @@
         };
         this.$http.post(process.env.API_ROOT + '/invigilator/list', this.querystring.stringify(params)).then(response => {
           if (response && response.code == 1001) {
-            this.tableData3 = response.list.data;
-            this.filters.currentPage = response.list.page;
-            this.filters.pageSize = response.list.limit;
-            this.total = response.list.total;
+            this.tableData3 = response.list.data;//列表list
+            this.filters.currentPage = response.list.page//第几页
+            this.filters.pageSize = response.list.limit;//每页大小
+            this.total = response.list.total;//总页数
           } else {
 
           }
