@@ -1,0 +1,92 @@
+[class^="el-icon-zx"],
+[class*=" el-icon-zx"] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #606266
+}
+
+
+.el-menu {
+  border: none;
+}
+
+.el-header {
+  background-color: #3672B1;
+  text-align: center;
+  height: 5vh;
+}
+
+.el-footer {
+  background-color: #fff;
+  text-align: center;
+  height: 2vh;
+}
+
+.aside {
+  text-align: center;
+  height: 93.6vh;
+  border-right: 1px solid #dedede;
+}
+
+.el-main {
+  background-color: #fff;
+  text-align: center;
+}
+
+.el-menu-vertical:not(.el-menu--collapse) {
+  width: 200px;
+  text-align: left
+}
+
+.collapse {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+}
+
+.logo {
+  float: left;
+  height: 100%;
+}
+
+.logo-img {
+  height: 5vh;
+  margin: 1vh;
+}
+
+.logo-name {
+  float: right;
+  margin: 1vh;
+  font-size: 3vh;
+  color: white
+}
+
+.user {
+  float: right;
+  height: 100%;
+}
+
+.user-img {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 2.5vh;
+  margin: .5vh;
+  float: right;
+}
+
+.user-name {
+  float: left;
+  margin: 1vh;
+  font-size: 3vh;
+  color: white
+}
+
+.el-table .cell {
+  padding-left: 30px !important;
+}
